@@ -5,7 +5,7 @@ This project is a real-time-style object detection and tracking application buil
 
 It uses background subtraction to detect moving objects in uploaded videos and highlights detected objects using green bounding boxes.
 
-## 🚀 Features
+##  Features
 - Upload videos in MP4, AVI, and MOV formats.
 - Apply background subtraction using OpenCV's MOG2 algorithm.
 - Extract foreground objects from video frames.
