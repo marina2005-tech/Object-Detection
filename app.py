@@ -26,8 +26,6 @@ while captures.isOpened():
     cv2.imshow("Foreground",fg_img)
     cv2.imshow("Video",frame)
 
-    if cv2.waitKey(30) & 0xFF == ord('q'):
-         break
+
 captures.release()
-cv2.destroyAllWindows()
 
